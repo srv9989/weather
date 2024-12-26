@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <main class="weather_container">
+            <!-- Temperature -->
+            <div class="temp">
+                <p></p>
+            </div>
+            <!-- Location and Time -->
+            <section class="time_location">
+                <p></p>
+                <span></span>
+            </section>
+            <!-- Weather Condition -->
+            <div class="condition"> 
+                <p></p>
+            </div>
+        </main>
+        
+        <!-- Search Form -->
+        <nav>
+            <form class="form">
+                
+                <input type="text" id="location-search" placeholder="Search for a location" class="search_area" />
+                <button type="submit">Search</button>
+            </form>
+        </nav>
+
+        <!-- Loading Indicator -->
+        <div class="loading" style="display: none;">Loading...</div>
+    </div>
+
+    
+
+    <script src="srcipt.js"></script>
+</body>
+</html>
